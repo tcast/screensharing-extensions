@@ -1,18 +1,18 @@
 {
-  "name" : "OpenTok Screen Sharing",
-  "author": "TokBox, Inc.",
-  "version" : "2.0",
+  "name" : "Mentor Meetings - Screen Sharing Plugin",
+  "author": "Custom Solutions Group, LLC",
+  "version" : "1.1",
   "manifest_version" : 2,
   "minimum_chrome_version": "34",
-  "description" : "This Chrome extension is developed primary for http://tokbox.com/. It doesn't do anything except capture content of your screen.",
-  "homepage_url": "http://tokbox.com/",
+  "description" : "This Chrome extension is used for screen sharing during a Mentor Meeting",
+  "homepage_url": "https://meeting.mentorhq.com",
   "background": {
     "scripts": ["background-script.js"],
     "persistent": false
   },
   "externally_connectable": {
     "matches": [
-      "https://*.change-this-to-your-domain.com/*"
+      "https://meeting.mentorhq.com/*"
     ]
   },
   "icons": {
